@@ -37,7 +37,7 @@ Sombras do Sertão utiliza a biblioteca Allegro 5, uma poderosa API de desenvolv
 3. **Compile o jogo**: Temos um script de compilação pronto para uso. Execute o arquivo `scripts/compiler.bat` para compilar o código-fonte. O arquivo executavel gerado estará localizado na pasta `bin`.
 4. **Execute o jogo**: Para executar o jogo você pode passar a flag `--run` para executar o jogo automaticamente após a compilação ou clicar duas vezes no arquivo `Sombras do Sertão.bat` na raiz do projeto.
 
-> **⚠️ IMPORTANTE ⚠️**  
+> [!IMPORTANT] 
 > 
 > **Pré-requisitos para compilação:**
 > - O compilador **GCC/MinGW** deve estar adicionado ao **PATH** do sistema
@@ -62,7 +62,7 @@ Além do GCC/MinGW, o projeto também oferece suporte para ser usado em conjunto
 2. **Compile o jogo**: Temos um script de compilação pronto para uso. Execute o arquivo `scripts/compiler.sh` para compilar o código-fonte. O arquivo binario gerado estará localizado na pasta `bin`.
 3. **Execute o jogo**: Para executar o jogo você pode passar a flag `--run` para executar o jogo automaticamente após a compilação ou clicar duas vezes no arquivo `SombrasDoSertao` na pasta `bin`.
 
-> **ℹ️ AVISO ℹ️**  
+> [!WARNING]  
 > 
 > O script de instalação (`scripts/setup.sh`) já inclui a instalação do compilador GCC e das dependências do Allegro necessárias para o projeto. Se você preferir instalar manualmente, certifique-se de ter:
 > - GCC (GNU Compiler Collection)
